@@ -1,4 +1,4 @@
-/* 🔧 Reset global */
+/*  Reset global */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 
-/* 🌄 Fundo com gradiente */
+/*  Fundo com gradiente */
 body {
   background-image: linear-gradient(
     45deg,
@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 
-/* ⏰ Estrutura do relógio */
+/*  Estrutura do relógio */
 .clock {
   width: 500px;
   height: 500px;
@@ -30,7 +30,7 @@ body {
   position: relative;
 }
 
-/* 🔢 Estilos para os números do relógio */
+/*  Estilos para os números do relógio */
 .clock .number {
   --rotation: 0;
   position: absolute;
@@ -43,7 +43,7 @@ body {
   padding: 15px;
 }
 
-/* 🔁 Rotação dos números */
+/*  Rotação dos números */
 .clock .number.number-1 {
   --rotation: 30deg;
 }
@@ -81,7 +81,7 @@ body {
   --rotation: 360deg;
 }
 
-/* 🎯 Ponto central do relógio */
+/*  Ponto central do relógio */
 .clock::after {
   content: "";
   position: absolute;
@@ -95,7 +95,7 @@ body {
   background-color: black;
 }
 
-/* 🕰 Estilos para os ponteiros */
+/*  Estilos para os ponteiros */
 .clock .hand {
   position: absolute;
   bottom: 50%;
@@ -110,7 +110,7 @@ body {
   border-top-right-radius: 10px;
 }
 
-/* 📏 Ajustes para ponteiros individuais */
+/*  Ajustes para ponteiros individuais */
 .clock .hand.seconds {
   width: 3px;
   height: 40%;
